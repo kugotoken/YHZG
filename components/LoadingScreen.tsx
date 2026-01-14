@@ -1,11 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { translations, Language } from '../translations';
 
 interface LoadingScreenProps {
   onComplete: () => void;
+  lang: Language;
 }
 
-const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
+const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete, lang }) => {
+  const t = translations[lang].loading;
+
   return (
     <motion.div
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-night-900 text-gold-100 p-8 text-center"
@@ -16,7 +20,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
     >
       {/* Logo Animation */}
       <motion.img
-        src="/images/1.png" //
+        src="/images/1.png" // 
         alt="Firefly Logo"
         className="w-24 h-24 md:w-32 md:h-32 mb-8 rounded-full shadow-[0_0_30px_rgba(251,191,36,0.3)] object-contain"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -31,7 +35,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           transition={{ delay: 1.0, duration: 1.5 }}
           className="text-xl md:text-2xl mb-6 text-gold-200"
         >
-          “每一个微小的个体，都有权在 BSC 的星空下闪耀。”
+          {t.p1}
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -39,7 +43,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           transition={{ delay: 3.0, duration: 1.5 }}
           className="text-lg md:text-xl text-gold-400"
         >
-          这不是一个人的战斗，而是千万萤火汇聚成的光海。
+          {t.p2}
         </motion.p>
       </div>
       

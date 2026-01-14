@@ -1,7 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { translations, Language } from '../translations';
 
-const VisionSection: React.FC = () => {
+interface VisionSectionProps {
+  lang: Language;
+}
+
+const VisionSection: React.FC<VisionSectionProps> = ({ lang }) => {
+  const t = translations[lang].vision;
+
   return (
     <section className="relative z-10 min-h-[60vh] flex items-center justify-center py-20 px-4 overflow-hidden">
       {/* Background Decorative Glow */}
@@ -15,15 +22,15 @@ const VisionSection: React.FC = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-3xl md:text-5xl font-serif text-white mb-10 leading-snug">
-            加油吧，努力拼搏的人，<br />
-            <span className="text-gold-400">无论多难，都不要放弃你的梦想！</span>
+            {t.title_1}<br />
+            <span className="text-gold-400">{t.title_2}</span>
           </h2>
           
           <div className="w-24 h-1 bg-gold-500 mx-auto mb-10"></div>
 
           <p className="text-xl md:text-2xl text-gold-100/90 leading-relaxed font-light">
-            【萤火之光】点亮你的未来，<br />
-            让我们与光同行！！！
+            {t.desc_1}<br />
+            {t.desc_2}
           </p>
         </motion.div>
 
