@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
             poster="https://picsum.photos/1280/566?grayscale&blur=2"
           >
             {/* Using a high-quality creative commons abstract particle video as placeholder */}
-            <source src="https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_25fps.mp4" type="video/mp4" />
+            <source src="/videos/1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </motion.div>
