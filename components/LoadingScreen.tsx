@@ -16,7 +16,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
     >
       {/* Logo Animation */}
       <motion.img
-        src="https://placehold.co/200x200/FBC02D/050A18?text=Logo&font=serif" // 请在此处替换您的 Logo 图片链接
+        src="/images/1.png" //
         alt="Firefly Logo"
         className="w-24 h-24 md:w-32 md:h-32 mb-8 rounded-full shadow-[0_0_30px_rgba(251,191,36,0.3)] object-contain"
         initial={{ opacity: 0, scale: 0.8 }}
