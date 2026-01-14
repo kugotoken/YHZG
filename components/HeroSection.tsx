@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
         
         {/* Logo */}
         <motion.img
-          src="https://placehold.co/200x200/FBC02D/050A18?text=Logo&font=serif" // 请在此处替换您的 Logo 图片链接
+          src="/images/1.png" //
           alt="Firefly Logo"
           className="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-[0_0_40px_rgba(251,191,36,0.4)] border-2 border-gold-500/30 object-contain p-2 bg-night-900/50 backdrop-blur-sm"
           initial={{ opacity: 0, scale: 0.8, y: -20 }}
