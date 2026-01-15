@@ -11,7 +11,7 @@ export const translations = {
       quote: "“来都来了，就不白来一场嘛，就算你是一个微弱的萤火，也可以尝试一下，像一个星辰一样闪亮！！！”",
       author: "— 何一 (He Yi)",
       btn_community: "加入社区",
-      btn_buy: "立即在 Four.Meme 购买",
+      btn_buy: "立即在 Flap.sh 购买",
       view_original_video: "原视频查看（点击跳转）",
     },
     tokenomics: {
@@ -26,7 +26,7 @@ export const translations = {
       copy: "复制",
       copied: "已复制",
       launch_label: "发射方式",
-      launch_val: "Four.Meme 平台公平发射",
+      launch_val: "Flap.sh 平台公平发射",
     },
     vision: {
       title_1: "加油吧，努力拼搏的人，",
@@ -38,7 +38,7 @@ export const translations = {
       join: "加入我们的星系",
       twitter: "Twitter/X",
       telegram: "Telegram",
-      qq: "QQ: 444444444",
+      qq: "QQ: 1075878145",
       copyright: "版权所有 © 2026 萤火之光社区 | Firefly Light Community",
     }
   },
@@ -52,7 +52,7 @@ export const translations = {
       quote: "“Since we are here, let's not make it in vain. Even if you are a faint firefly, you can try to shine like a star!!!”",
       author: "— He Yi",
       btn_community: "Join Community",
-      btn_buy: "Buy on Four.Meme",
+      btn_buy: "Buy on Flap.sh",
       view_original_video: "View Original Video",
     },
     tokenomics: {
@@ -67,7 +67,7 @@ export const translations = {
       copy: "Copy",
       copied: "Copied",
       launch_label: "Launch Method",
-      launch_val: "Fair Launch on Four.Meme",
+      launch_val: "Fair Launch on Flap.sh",
     },
     vision: {
       title_1: "Keep going, strivers,",
@@ -79,7 +79,7 @@ export const translations = {
       join: "Join Our Galaxy",
       twitter: "Twitter/X",
       telegram: "Telegram",
-      qq: "QQ: 444444444",
+      qq: "QQ: 1075878145",
       copyright: "Copyright © 2026 Firefly Light Community",
     }
   }
