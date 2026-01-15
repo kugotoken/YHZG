@@ -9,7 +9,7 @@ interface TokenomicsProps {
 
 const Tokenomics: React.FC<TokenomicsProps> = ({ lang }) => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0x4444444444444444444444444444444444444444";
+  const contractAddress = "0xb0e80e59df429bb9c6a255b628c59097c6f57777";
   const t = translations[lang].tokenomics;
 
   const handleCopy = () => {
