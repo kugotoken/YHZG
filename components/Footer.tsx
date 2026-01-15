@@ -17,7 +17,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
         
         <div className="flex flex-wrap justify-center gap-6 md:gap-12 mb-12">
           <a 
-            href="https://x.com/heyibinance/" 
+            href="https://x.com/yinghuozhig" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex flex-col items-center gap-3 text-gray-400 hover:text-gold-400 transition-colors"
@@ -29,7 +29,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
           </a>
 
           <a 
-            href="https://t.me/XXXXXX" 
+            href="https://t.me/yinghuozhiguangbsc" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex flex-col items-center gap-3 text-gray-400 hover:text-gold-400 transition-colors"
@@ -40,7 +40,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
             <span className="text-sm">{t.telegram}</span>
           </a>
 
-           <div className="group flex flex-col items-center gap-3 text-gray-400 hover:text-gold-400 transition-colors cursor-pointer" title="QQ群: 444444444">
+           <div className="group flex flex-col items-center gap-3 text-gray-400 hover:text-gold-400 transition-colors cursor-pointer" title="QQ群: 1075878145">
              <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-gold-500 group-hover:bg-gold-500/10 group-hover:shadow-[0_0_15px_rgba(251,191,36,0.4)] transition-all">
               <MessagesSquare size={24} />
             </div>
