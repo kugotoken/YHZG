@@ -96,7 +96,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang }) => {
           transition={{ delay: 0.8, duration: 0.8 }}
         >
           <a 
-            href="https://t.me/XXXXXX" 
+            href="https://t.me/yinghuozhiguangbsc" 
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-night-800 border border-gold-600 text-gold-300 rounded-full font-bold text-lg flex items-center gap-2 hover:bg-gold-900/20 hover:text-white hover:shadow-[0_0_20px_rgba(251,191,36,0.6)] hover:border-gold-400 transition-all duration-300"
@@ -105,7 +105,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ lang }) => {
             {t.btn_community}
           </a>
           <a 
-            href="https://four.meme" 
+            href="https://flap.sh/bnb/board" 
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-gradient-to-r from-gold-600 to-gold-400 text-night-900 rounded-full font-bold text-lg flex items-center gap-2 shadow-[0_0_15px_rgba(251,191,36,0.4)] hover:shadow-[0_0_30px_rgba(251,191,36,0.8)] hover:scale-105 transition-all duration-300"
